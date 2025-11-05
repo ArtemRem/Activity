@@ -31,6 +31,5 @@ class ReceiverActivity : AppCompatActivity() {
             setImageResource(imageId)
             }
 
-
     }
 }
