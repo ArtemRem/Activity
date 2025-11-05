@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:textColor="#212121"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintStart_toEndOf="@+id/posterImageView"
         app:layout_constraintTop_toTopOf="@+id/posterImageView"
         tools:text="Interstellar" />
@@ -32,14 +32,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="16dp"
-        android:textColor="#B3212121"
-        android:textSize="16dp"
+        android:textColor="#212121"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/posterImageView"
-        tools:text="Когда засуха, пыльные бури и вымирание растений приводят человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и найти планету с подходящими для человечества условиями." />
+        tools:text="Когда засуха..." />
 
     <TextView
         android:id="@+id/yearTextView"
@@ -47,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:textColor="#80212121"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/titleTextView"
         app:layout_constraintTop_toBottomOf="@+id/titleTextView"
         tools:text="2014" />
